@@ -1,0 +1,11 @@
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\HrPackageCreator.exe
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\HrPackageCreator.pdb
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\HrUpdater.dll
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\Newtonsoft.Json.dll
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\HrUpdater.pdb
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\bin\Release\Newtonsoft.Json.xml
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\obj\Release\HrUpdaterCreator.csprojAssemblyReference.cache
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\obj\Release\HrUpdaterCreator.csproj.CoreCompileInputs.cache
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\obj\Release\HrUpdaterCreator.csproj.CopyComplete
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\obj\Release\HrPackageCreator.exe
+D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdaterCreator\obj\Release\HrPackageCreator.pdb

@@ -1,0 +1,16 @@
+{
+  "Updates" : [
+    {
+      "Url": "https://hr.brastagi.net/update/gaia/payroll",
+      "Username": "",
+      "Password": "",
+      "DestinationPath": "c:\\hrd3"
+    },
+    {
+      "Url": "file://c:\\hrd",
+      "Username": "",
+      "Password": "",
+      "DestinationPath": "c:\\hrd4"
+    }
+  ]
+}

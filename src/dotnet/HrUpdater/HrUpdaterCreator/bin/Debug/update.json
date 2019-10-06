@@ -1,0 +1,31 @@
+{
+  "ProjectName": "TEST",
+  "CurrentVersion": "20191005154419875",
+  "Hash": "961F24BF1FF8A8989C5589824DF6B21D",
+  "Files": [
+    {
+      "FileName": "\\HrPackageCreator.exe",
+      "Hash": "2AE5226DC93229B8E2D3336F93EF37E2"
+    },
+    {
+      "FileName": "\\HrUpdater.dll",
+      "Hash": "39B17D77C2A2635363FCEEA74D175E3B"
+    },
+    {
+      "FileName": "\\HrPackageCreator.pdb",
+      "Hash": "48B9E135B3399138B2004B829DEB6C72"
+    },
+    {
+      "FileName": "\\HrUpdater.pdb",
+      "Hash": "50BD3ECF20823A06FFFCE84E00430CB2"
+    },
+    {
+      "FileName": "\\Newtonsoft.Json.dll",
+      "Hash": "9DE86CDF74A30602D6BAA7AFFC8C4A0F"
+    },
+    {
+      "FileName": "\\Newtonsoft.Json.xml",
+      "Hash": "951251FDEDC36F6945A3AB660D28D3FF"
+    }
+  ]
+}

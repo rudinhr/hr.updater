@@ -33,6 +33,7 @@ namespace HrUpdater
             var jsonByte = fgetter.GetFileContent(UpdaterUtil.UpdaterDefinitionFilename);
             string jsonStr = Encoding.UTF8.GetString(jsonByte);
             var newDefinition = JObject.Parse(jsonStr).ToObject<HrUpdaterDefinition>();
+            logAction?.Invoke(newDefinition.ToString());
             if(!Directory.Exists(destinationFolder))
             {
                 logAction?.Invoke($"Create Directory {destinationFolder}");
@@ -60,13 +61,18 @@ namespace HrUpdater
                 Directory.CreateDirectory(tmpFolder);
             }
             var tmpDefinitionFilename = $"{tmpFolder}\\{UpdaterUtil.UpdaterDefinitionFilename}";
+            logAction?.Invoke($"Write update definition {tmpDefinitionFilename}");
 
             File.WriteAllBytes(
                         tmpDefinitionFilename
                         , jsonByte);
+            logAction?.Invoke("Comparing...");
             var files = oldDefinition.GetDiffFiles(newDefinition);
-            if(files!=null)
+            logAction?.Invoke($"Finish Compare..");
+
+            if (files!=null)
             {
+                logAction?.Invoke($"diff {files.Count} files");
                 foreach (var f in files)
                 {
                     var targetFile = $"{tmpFolder}{f.FileName}";

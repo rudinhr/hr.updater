@@ -1,7 +1,6 @@
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\bin\Debug\HrUpdater.dll
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\bin\Debug\HrUpdater.pdb
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\obj\Debug\HrUpdater.csprojAssemblyReference.cache
-D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\obj\Debug\HrUpdater.csproj.CoreCompileInputs.cache
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\obj\Debug\HrUpdater.dll
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\obj\Debug\HrUpdater.pdb
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrUpdater\bin\Debug\Newtonsoft.Json.dll

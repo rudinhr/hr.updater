@@ -17,23 +17,46 @@ namespace HrAutoUpdate
                 , "specified update definition filename, default.json is default"
                 + "\nsyntax: -file [filename]"
                 + "\nsample: HrAutoUpdate -file hrd.json");
-            
+            impargs.AddArgument("verbose"
+                , "show process and wait for input key");
 
             string filename = "default.json";
 
             impargs.LoadArgs(args);
-            if(impargs.GetValue("file").IsSet)
+
+
+            if (impargs.GetValue("help").IsSet)
             {
-                filename = impargs.GetValue("file").Value;
+                System.Console.WriteLine(impargs.GetHelp());
             }
-            try
-            {
-                HrUpdateEngine.Update(filename, (msg) => Console.WriteLine(msg));
-            }catch(Exception ex)
-            {
-                Console.WriteLine("Update Error " + ex.Message);
+            else {
+                bool verbose = impargs.GetValue("verbose").IsSet;
+
+                if (impargs.GetValue("file").IsSet)
+                {
+                    filename = impargs.GetValue("file").Value;
+                }
+                try
+                {
+                    Action<string> logAction = null;
+                    if(verbose)
+                        logAction = (msg) => Console.WriteLine(msg);
+                    HrUpdateEngine.Update(filename, logAction);
+                }
+                catch (Exception ex)
+                {
+                    if(verbose)
+                        Console.WriteLine("Update Error " + ex.Message);
+                }
+                if(verbose)
+                {
+                    Console.WriteLine("Press any key to exit");
+                    Console.ReadLine();
+                }
+                    
             }
-            Console.ReadLine();
+
+            
 
         }
     }

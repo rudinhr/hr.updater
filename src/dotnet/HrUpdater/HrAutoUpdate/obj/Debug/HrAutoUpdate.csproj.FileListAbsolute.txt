@@ -5,7 +5,6 @@ D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrA
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\bin\Debug\HrUpdater.pdb
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\bin\Debug\Newtonsoft.Json.xml
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\obj\Debug\HrAutoUpdate.csprojAssemblyReference.cache
-D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\obj\Debug\HrAutoUpdate.csproj.CoreCompileInputs.cache
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\obj\Debug\HrAutoUpdate.csproj.CopyComplete
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\obj\Debug\HrAutoUpdate.exe
 D:\Rudin\Data\Development\hr\brastagigit\new\hr.updater\src\dotnet\HrUpdater\HrAutoUpdate\obj\Debug\HrAutoUpdate.pdb

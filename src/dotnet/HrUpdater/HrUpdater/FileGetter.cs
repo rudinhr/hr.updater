@@ -19,6 +19,7 @@ namespace HrUpdater
         public HttpFileGetter(string protocol, string address)
         {
             mUrl = $"{protocol}://{address}";
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
         }
         public byte[] GetFileContent(string fileName)
         {

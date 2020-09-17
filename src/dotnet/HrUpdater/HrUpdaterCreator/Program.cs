@@ -26,15 +26,15 @@ namespace HrUpdateCreator
                 );
 
             impargs.LoadArgs(args);
-            if(!impargs.GetValue("project").IsSet)
-            {
-                Console.WriteLine("Invalid Syntax, see -help");
-                Console.ReadLine();
-            }
-            else if(impargs.GetValue("help").IsSet)
+            if (impargs.GetValue("help").IsSet)
             {
                 System.Console.WriteLine(impargs.GetHelp());
             }
+            else if (!impargs.GetValue("project").IsSet)
+            {
+                Console.WriteLine("Invalid Syntax, see -help");
+                Console.ReadLine();
+            }                        
             else
             {
                 var projectName = impargs.GetValue("project").Value;
